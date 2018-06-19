@@ -9,6 +9,10 @@ buildout.cfg
 coverage/
 develop-eggs/
 eggs/
+include/
+lib/
+local/
 parts/
 src/
 var/
+pip-selfcheck.json
