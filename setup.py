@@ -15,14 +15,24 @@ setup(name='plonetheme.onegovbear',
       description='OneGov Plone theme sponsored by the city of Bern.',
       long_description=(open('README.rst').read() + '\n' +
                         open(os.path.join('docs', 'HISTORY.txt')).read()),
-
+      # Get more strings from
+      # https://pypi.org/pypi?:action=list_classifiers
       classifiers=[
+        'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
         'Framework :: Plone',
         'Framework :: Plone :: 4.3',
-        'License :: OSI Approved :: GNU General Public License (GPL)',
+        'Framework :: Plone :: Theme',
+        'Framework :: Zope2',
+        'Framework :: Zope3',
+        'Intended Audience :: Developers',
+        'Intended Audience :: End Users/Desktop',
+        'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
+        'Programming Language :: Python :: 2.7',
+        'Topic :: Internet',
+        'Topic :: Software Development :: Libraries :: Python Modules',
         ],
 
       keywords='plone theme onegov',
